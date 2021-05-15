@@ -1,0 +1,344 @@
+
+body {
+  /* background-color: rgb(95, 16, 16); */
+  padding: 0;
+  margin: 0;
+}
+.parent-div {
+  width: 100%;
+  /* justify-content: space-between; */
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  margin-top: 70px;
+  /* background-color: brown; */
+  padding-left: 100px;
+}
+.head-text {
+  font-size: 83px;
+  font-weight: bolder;
+  color: black;
+  /* margin-top: 50px; */
+}
+.paragraph-text {
+  font-size: 18px;
+  margin-right: 140px;
+  font-weight: bold;
+  color: rgb(48, 47, 47);
+}
+.first-btn {
+  width: 25%;
+  height: 53px;
+  border-radius: 8px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-size: 25px;
+}
+.right {
+  width: 50%;
+  margin-right: 20px;
+  background-color: rgb(173, 102, 240);
+  border-bottom-left-radius: 50%;
+  /* border-left-radius: 50%;  */
+}
+.nav-pic {
+  width: 100%;
+  /* margin-right: 70px; */
+}
+.nav-pic img{
+  width: 60%;
+  /* height: 150px; */
+	transform: skew(5deg);
+  padding-left: 30px;
+  margin-top: 130px;
+}
+.nav, li, ul{
+  list-style: none;
+  display: flex;
+  padding-left: 35px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.webo {
+  margin-left: 100px;
+  /* text-align: center; */
+}
+
+.ratings {
+  width: 75%;
+  margin: 0 auto;
+  padding-left: 55px;
+  margin-top: 50px;
+  padding-top: 25px;
+  display: flex;
+  background-color: rgb(250, 249, 248);
+  /* border: brown; */
+}
+.books {
+width: 100%;
+padding: 10px;
+}
+.books img{
+  border-radius: 50%;
+  width: 60px;
+}
+.forty {
+  font-size: 50px;
+  font-weight: bold;
+  color:  rgb(173, 102, 240);
+}
+.clients {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(90, 88, 88);
+}
+
+.about-section {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-items: center;
+  margin-top: 80px;
+}
+.lady {
+  width: 45%;
+  padding-left: 100px;
+  margin-top: 50px;
+}
+.lady img{
+  width: 80%;
+  padding-left: 50px;
+}
+.about {
+  width: 30%;
+  margin-top: 45px;
+  /* margin-right: 20px; */
+}
+.second-btn {
+  width: 30%;
+  height: 53px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  color: blueviolet;
+  font-size: 20px;
+}
+.about-head {
+  font-size: 40px;
+  font-weight: bolder;
+  color: black;
+  /* padding-right: 40px; */
+}
+.about-text {
+  font-size: 16px;
+  color: rgb(122, 120, 120);
+  font-weight: bold;
+}
+.approach {
+  margin-top: 100px;
+}
+.approach-div {
+  width: 90%;
+  display: flex;
+  /* background-color: coral; */
+  margin: 0 auto;
+}
+.ideate {
+  font-size: 20px;
+  /* width: 55%; */
+  font-weight: bolder;
+  color: black;
+
+}
+.ideas {
+  font-size: 18px;
+  text-align: center;
+  /* width: 65%; */
+  flex-wrap: wrap;
+  font-weight: bold;
+  padding-left: 70px;
+  color: rgb(122, 120, 120);
+}
+.icon {
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+  /* flex-wrap: wrap; */
+}
+.icon img{
+  border-radius: 50%;
+  width: 27%;
+}
+.approach-head {
+  color: black;
+  text-align: center;
+  font-size: 23px;
+}
+.card-text {
+  padding-left: 90px;
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 35px;
+}
+.cards {
+  width: 100%;
+  margin-top: 100px;
+}
+.top-cards {
+  width: 58%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+.bottom-cards {
+  width: 57%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  /* margin-top: 15px; */
+}
+.cards img{
+  width: 100%;
+}
+
+.craft {
+  width: 100%;
+  /* background-color: rgb(255, 127, 80); */
+  text-align: center;
+  margin-top: 90px;
+}
+
+.craft-head {
+  font-size: 48px;
+  color: black;
+  font-weight: bolder;
+}
+
+.craft-btn {
+  width: 13%;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.testimonials {
+  width: 100%;
+  background-color: blueviolet;
+  padding-bottom: 100px;
+  padding-top: 45px;
+  margin-top: 70px;
+}
+.testify {
+  font-size: 30px;
+  padding-left: 200px;
+  color: white;
+}
+.left-twin-div-head {
+  font-size: 18px;
+}
+.left-twin-div-paragraph {
+  font-size: 16px;
+}
+.twin-div {
+  /* background-color: rgb(16, 94, 97); */
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+.left-twin-div {
+  width: 100%;
+  background-color: white;
+  margin-right: 10px;
+}
+.right-twin-div {
+  width: 100%;
+  margin-left: 10px;
+  background-color: white;
+}
+.jane {
+  display: flex;
+  /* text-align: center; */
+  padding-left: 100px;
+  height: 50px;
+}
+.jane img{
+  width: 20%;
+  height: 50px;
+  border-radius: 50%;
+ margin-top: 30px;
+}
+.cooper-text {
+
+}
+.cooper {
+  font-size: 20px;
+ font-weight: bold;
+ padding-left: 20px;
+}
+
+.cooper-text {
+  font-size: 14px;
+}
+.footer {
+  width: 100%;
+  background-color: black;
+  /* color: white; */
+  text-align: center;
+  display: flex;
+}
+.landify {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 75px;
+  /* background-color: rgb(12, 72, 124); */
+  margin-bottom: 70px;
+}
+.product, .company, .support, .follow-us{
+width: 15%;
+text-align: center;
+color: rgb(237, 153, 253);
+}
+.land, .pro {
+  font-size: 18px;
+}
+.land {
+  color: white;
+}
+.list-one, .list-two, .list-three, .list-four{
+  display: grid;
+  list-style: none;
+  padding-left: 5px;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  color: rgb(241, 237, 237);
+}
+.landify ul{
+  display: grid;
+  list-style: none;
+}
+.landify img{
+  width: 4%;
+  height: 47px;
+  margin-top: 20px;
+  padding-left: 20px;
+  border: black;
+}
+.copyright {
+  /* text-align: left; */
+  font-size: 12px;
+  /* margin-right: 5px; */
+}
