@@ -1,4 +1,5 @@
 import React from './footer';
+import { Link } from "react-router-dom";
 import landify from './Images/Landify.PNG';
 
 function Footer() {
@@ -22,7 +23,9 @@ function Footer() {
     <li className="list-three">Overview</li>
     <li className="list-three">Features</li>
     <li className="list-three">Tutorials</li>
+    <Link to="/Pricing">
     <li className="list-three">Pricing</li>
+    </Link>
     <li className="list-three">Releases</li>
 </ul>
 </div>
@@ -30,10 +33,10 @@ function Footer() {
 <div className="company">
 <h5 className="pro">Company</h5>
 <ul>
-    <li className="list-one">About</li>
+    <Link to="/About"><li className="list-one">About</li></Link>
     <li className="list-one">Press</li>
     <li className="list-one">Careers</li>
-    <li className="list-one">Contact</li>
+   <Link to="/Contact"><li className="list-one">Contact</li></Link>
     <li className="list-one">Partners</li>
 </ul>
 </div>

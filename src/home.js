@@ -8,6 +8,7 @@ import cardtwo from './Images/Card 2.PNG';
 import cardthree from './Images/Card 3.PNG';
 import cardfour from './Images/Card 4.PNG';
 import jane from './Images/Excited lady.jpeg';
+import { Link } from "react-router-dom";
 
 
 function Home() {
@@ -21,7 +22,7 @@ function Home() {
 <p className="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     Nunc odio in et, lectus sit lorem id integer</p>
   
-    <button className="first-btn">Get Started</button>
+    <Link to="/Button"><button className="first-btn">Get Started</button></Link>
 </div>
 <div className="right">
     <div className="nav-pic">
@@ -67,7 +68,7 @@ function Home() {
     Condimentum diam orci pretium a pharetra feugiat cursus. 
     Dictumst risus, sem egestas odio cras adipiscing vulputate. 
     Nisi, risus in suscipit non. Non commodo volutpat, pharetra vel.</p>
-<button className="second-btn">Get Started</button>
+<Link to="/Button"><button className="second-btn">Get Started</button></Link>
 </div>
 </div>
 
