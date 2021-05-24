@@ -348,30 +348,42 @@ color: rgb(237, 153, 253);
 body {
   overflow-x: hidden;
 }
+.first-div {
+  width: 100%;
+}
 .nav {
   width: 100%;
   display: flex;
 }
-.parent-div, .left, .right {
+.parent-div {
   width: 100%;
   display: flex;
-  text-align: center;
+  /* text-align: center; */
   flex-wrap: wrap;
 }
+.right, .left {
+  width: 100%;
+}
+.first-btn {
+  width: 20%;
+  font-size: 15px;
+  text-align: center;
+  margin-left: 80px;
+}
 .head-text {
-  font-size: 30px;
+  font-size: 25px;
   /* padding-right: 5px; */
   /* text-align: center; */
 }
 .paragraph-text {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
 }
-.first-btn, .craft-btn {
-  width: 100%;
-  font-size: 18px;
+.craft-btn {
+  width: 20%;
+  font-size: 15px;
   text-align: center;
-  margin-left: 100px;
+  /* margin-left: 50px; */
 }
 .ratings, .books{
   width: 100%;
@@ -386,32 +398,43 @@ body {
   font-size: 13px;
   /* text-align: center; */
 }
-.about-section, .lady{
+.about-section {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
 .lady img{
-  width: 75%;
-  padding-left: 5px;
+  width: 100%;
+  /* margin-left: 15px; */
 }
 .about {
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-  padding-left: 50px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  width: 90%;
+  margin: 0 auto;
+  /* padding-left: 50px; */
 }
 .second-btn {
-  margin-left: 150px;
-  width: 100%;
+  /* background-color: brown; */
+  /* margin-left: 130px; */
+  width: 70%;
 }
 .about-head {
   font-size: 25px;
   width: 100%;
 }
+.craft {
+  width: 100%;
+}
 .craft-head{
   font-size: 30px;
+}
+.craft-btn {
+  /* width: 20%; */
+  /* text-align: center; */
+  /* margin-right: 100px; */
+
 }
 .approach-div {
   width: 100%;
@@ -431,14 +454,14 @@ padding-left: 20px;
 font-size: 14px;
 }
 .twin-div {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   margin: 0 auto;
 }
 .left-twin-div {
-  /* padding-bottom: 40px; */
+  
 }
 .right-twin-div {
 margin-top: 10px;
@@ -466,7 +489,7 @@ margin-right: 12px;
 .landify img{
   width: 20%;
   height: 100px;
-  padding-left: 200px;
+  /* margin-left: 200px; */
 }
 
 
