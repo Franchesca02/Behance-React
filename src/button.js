@@ -1,9 +1,11 @@
-import React from './button';
-function Button() {
+import React from 'react';
+import "./button.css";
+
+function Button({child,click}) {
     return (
-  <div>
-      <p>Welcome to WEBO the website creator!</p>
-  </div>
+  <button onClick={click} className="btn-new">
+    {child}
+  </button>
   );
 }
 export default Button;

@@ -9,10 +9,13 @@ import cardthree from './Images/Card 3.PNG';
 import cardfour from './Images/Card 4.PNG';
 import jane from './Images/Excited lady.jpeg';
 import { Link } from "react-router-dom";
-
+import Button from "./button"
 
 function Home() {
-    return (
+    const cons = () => {
+        console.log("i see click")
+    }
+   return (
         <div className="first-div">
 <div className="parent-div">
 
@@ -22,7 +25,7 @@ function Home() {
 <p className="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     Nunc odio in et, lectus sit lorem id integer</p>
   
-    <Link to="/Button"><button className="first-btn">Get Started</button></Link>
+        <Button child="Get Started" click={cons} />
 </div>
 <div className="right">
     <div className="nav-pic">

@@ -73,7 +73,8 @@ body {
 .ratings {
   width: 75%;
   margin: 0 auto;
-  padding-left: 55px;
+  padding-left: 35px;
+  /* padding-right: 15px; */
   margin-top: 50px;
   padding-top: 25px;
   display: flex;
@@ -82,7 +83,7 @@ body {
 }
 .books {
 width: 100%;
-padding: 10px;
+/* padding: 10px; */
 }
 .books img{
   border-radius: 50%;
@@ -146,8 +147,9 @@ padding: 10px;
 .approach-div {
   width: 90%;
   display: flex;
+  text-align: center;
   /* background-color: coral; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .ideate {
   font-size: 20px;
@@ -194,14 +196,18 @@ padding: 10px;
   width: 58%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
   margin-bottom: 15px;
+}
+.top-left {
+  padding-right: 14px;
+}
+.bottom-right {
+  padding-left: 10px;
 }
 .bottom-cards {
   width: 57%;
   margin: 0 auto;
   display: flex;
-  justify-content: space-evenly;
   /* margin-top: 15px; */
 }
 .cards img{
@@ -271,17 +277,15 @@ padding: 10px;
   display: flex;
   /* text-align: center; */
   padding-left: 100px;
-  height: 50px;
+  /* height: 50px; */
 }
 .jane img{
   width: 20%;
-  height: 50px;
+  height: 60px;
   border-radius: 50%;
  margin-top: 30px;
 }
-.cooper-text {
 
-}
 .cooper {
   font-size: 20px;
  font-weight: bold;
@@ -290,6 +294,7 @@ padding: 10px;
 
 .cooper-text {
   font-size: 14px;
+  /* padding-top: 30px; */
 }
 .footer {
   width: 100%;
@@ -344,39 +349,39 @@ color: rgb(237, 153, 253);
   /* margin-right: 5px; */
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 360px) {
 body {
   overflow-x: hidden;
 }
-.first-div {
-  width: 100%;
-}
 .nav {
   width: 100%;
-  display: flex;
+  /* display: flex; */
+  flex-wrap: wrap;
+  /* padding-left: 20px; */
 }
 .parent-div {
   width: 100%;
-  display: flex;
+  /* display: grid; */
   /* text-align: center; */
   flex-wrap: wrap;
 }
-.right, .left {
+.left, .right {
   width: 100%;
+  /* height: 70px; */
 }
 .first-btn {
   width: 20%;
   font-size: 15px;
   text-align: center;
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 .head-text {
-  font-size: 25px;
+  font-size: 15px;
   /* padding-right: 5px; */
   /* text-align: center; */
 }
 .paragraph-text {
-  font-size: 15px;
+  font-size: 13px;
   text-align: center;
 }
 .craft-btn {
@@ -385,10 +390,14 @@ body {
   text-align: center;
   /* margin-left: 50px; */
 }
-.ratings, .books{
-  width: 100%;
-  /* text-align: center; */
-  padding-left: 12px;
+.ratings {
+  width: 80%;
+  text-align: center;
+  flex-wrap: wrap;
+  /* padding-left: 12px; */
+}
+.books {
+  /* flex-wrap: wrap; */
 }
 .forty {
   font-size: 23px;
@@ -400,13 +409,13 @@ body {
 }
 .about-section {
   width: 100%;
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   text-align: center;
 }
 .lady img{
   width: 100%;
-  /* margin-left: 15px; */
+  /* margin-right: 10px; */
 }
 .about {
   /* display: flex; */
@@ -420,8 +429,11 @@ body {
   /* margin-left: 130px; */
   width: 70%;
 }
+.about-text {
+  font-size: 13px;
+}
 .about-head {
-  font-size: 25px;
+  font-size: 20px;
   width: 100%;
 }
 .craft {
@@ -430,27 +442,28 @@ body {
 .craft-head{
   font-size: 30px;
 }
-.craft-btn {
-  /* width: 20%; */
-  /* text-align: center; */
-  /* margin-right: 100px; */
+.cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 
 }
-.approach-div {
+.approach-div, .icon {
   width: 100%;
+  flex-wrap: wrap;
 }
 .approach-head {
-  font-size: 15px;
+  font-size: 13px;
 }
 .icon {
-  width: 25%;
+  /* width: 25%; */
 }
 .ideate {
   font-size: 14px;
 }
 .ideas {
-width: 80%;
-padding-left: 20px;
+/* width: 80%; */
+/* padding-left: 20px; */
 font-size: 14px;
 }
 .twin-div {
@@ -467,8 +480,20 @@ font-size: 14px;
 margin-top: 10px;
 margin-right: 12px;
 }
+.approach-div {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+}
+.jane {
+  padding-top: 35px;
+}
+.cooper-text {
+  margin-top: 30px;
+}
 .testify {
-  font-size: 17px;
+  font-size: 15px;
+  /* text-align: inherit; */
 }
 .testimonials {
   width: 100%;
@@ -484,7 +509,7 @@ margin-right: 12px;
   width: 22%;
 }
 .pro {
-  padding-left: 50px;
+  padding-left: 20px;
 }
 .landify img{
   width: 20%;

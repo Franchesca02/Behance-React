@@ -1,0 +1,7 @@
+.btn-new{
+    background: red;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: .5rem 1rem;
+}
